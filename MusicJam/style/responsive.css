@@ -1,0 +1,90 @@
+@media (max-width:575.98px){
+      .intro_text{
+         font-size: 0.9rem;
+         position: absolute;
+         top: 5em;
+      }
+    }
+@media (max-width: 767.98px){
+       .intro_text{
+          padding-left: 8rem;
+        }
+          .landing_page{
+          padding-top: 6rem;
+          }
+      .main_nav a{
+          padding-left: 2rem;
+      }
+      .typing_text{
+          padding-top: 3em;
+          padding-left: 12rem;
+      }
+      .prices{
+          background-position: 50% 47%;
+      }
+  }
+  @media (max-width: 991.98px){
+      .main_nav a{
+          padding-left: 3em;
+      }
+      .landing_page{
+          padding-top: 4em;
+          background-position: 60%;
+      }
+      .intro_text{
+          position: absolute;
+          top: 6rem;
+          font-size: 1em;
+          left: 14em;
+      }
+      .typing_text{
+          padding-left: 9em;
+      }
+      .prices{
+          background-position: 50% 45%;
+      }
+}
+@media (max-width: 1199.98px){
+    .main_nav a{
+        padding-left: 1em;
+    }
+    .landing_page{
+        padding-top: 4em;
+        background-position: 55%;
+    }
+    .intro_text{
+        position: absolute;
+        top: 6rem;
+        font-size: 1em;
+        left: 19em;
+    }
+    .typing_text{
+        padding-top: 3em;
+        padding-left: 12em;
+    }
+    .prices{
+        background-position: 50% 45%;
+    }
+    .social_icons img{
+          height: 2em;
+          width: 2em;
+    }
+}
+@media(max-width: 1679.98px){
+    .landing_page{
+        padding-top: 15em;
+    }
+    .intro_text{
+        position: absolute;
+        top: 9rem;
+        font-size: 1em;
+        left: 28em;
+    }
+    .typing_text{
+        padding-top: 3em;
+        padding-left: 17.5em;
+    }
+    .prices{
+        background-position: 50% 45%;
+    }
+}

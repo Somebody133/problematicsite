@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+}
+@keyframes LoadingInFirst {
+    from{
+        opacity: 0;
+        bottom: 33em;
+    }
+    to {
+        opacity: 1;
+        bottom: 35em;
+    }
+}
+header{
+    padding: 2em;
+    padding-left: 0;
+    padding-top: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 2em;
+    background-color: black;
+   z-index: 9999;
+   transition: background-color .5s ease-in-out;
+    
+}
+.main_nav{
+    display: flex; 
+    list-style-type: none;
+    padding-left: 0.6em;
+    justify-content: space-around !important;
+ 
+}
+.main_nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: color 500ms ease-in-out;
+    text-transform: uppercase;
+    transition: color .5s ease-in-out;
+}
+.main_nav a:hover,
+.main_nav a:focus{
+    color: #ff0000 !important;
+}
+
+.landing_page{
+    background:url(/pics/headset.png);
+    background-color: #111111;
+    width: 100%;
+    height: 50em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.intro_text{
+    color: white;
+    position: absolute;
+    bottom: 35em;
+    padding: 1em;
+    text-align: center;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 100;
+    animation: LoadingInFirst .75s ;
+}
+.prices{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    background:url(/pics/price_logo.png);
+    background-position: center center;
+    background-size: 5rem 5rem;
+    background-repeat: no-repeat;
+}
+
+
+.pricing_text{
+    padding: 0.5em;
+    padding-top: 10rem;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-size: 2rem;
+}
+.typing_text{
+  padding-top: 5rem;
+  padding-left: 3.2rem;
+  font-size: 1.5rem;
+  font-family: 'poppins',sans-serif;
+}
+.typing_text{
+    font-size: 2rem;
+}
+.typing_text::after{
+    content: '';
+}
+footer{
+    width: 100%;
+    height: 5rem;
+   
+    
+
+}
+.social_icons{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease;
+    
+}
+.social_icons a{
+    padding: .3em;
+}
+.about_us{
+    text-align: center;
+    padding-left: .3em;
+    font-size: 0.7em;
+    font-family:sans-serif;
+    transition: all .3s ease;
+}
